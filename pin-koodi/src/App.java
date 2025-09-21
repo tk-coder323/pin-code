@@ -13,7 +13,7 @@ public class App {
             System.out.println("Anna pin");
             pin = in.nextLine();
         } while (!pin.equals(oikeaPin));
-        System.out.println("Olet kirjautunut sisään");
+        System.out.println("Olet kirjautunut sisään onnistuneesti! :)");
 
     }
 }
