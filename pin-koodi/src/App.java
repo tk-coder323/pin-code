@@ -10,7 +10,7 @@ public class App {
         // Loopataan niin kauan, kunnes pin ei ole sama oikeaPin
         
         do {
-            System.out.println("Anna pin");
+            System.out.println(" Anna oikea pin-koodi kirjautuaksesi sisään: ");
             pin = in.nextLine();
         } while (!pin.equals(oikeaPin));
         System.out.println("Olet kirjautunut sisään onnistuneesti! :)");
